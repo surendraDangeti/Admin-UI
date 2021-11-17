@@ -1,0 +1,25 @@
+.paginationBtn{
+    background-color:#118ab2; 
+    border:none;
+    margin:10px;
+    border-radius: 60px;
+    padding:8px 12px 6px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.empty-paginationBtn{
+background-color:#ffffff; 
+border:none;
+margin:10px;
+border-radius: 60px;
+padding:8px 12px 6px 12px;
+font-size: 16px;
+cursor: pointer;
+color:black;
+border:solid #118ab2;
+font-weight: bold;
+
+}

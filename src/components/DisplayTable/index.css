@@ -1,0 +1,74 @@
+.app-container {
+    display: flex;
+    max-width:100%;
+    overflow-y: hidden;
+  }
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .search-box-container{
+    margin-top: 2%;
+    max-width:100%;
+    padding:0px;
+    padding-bottom: 0px;
+  
+  }
+
+  .search-box{
+      min-height: 50px;
+      width: 100%;
+      border-radius:solid 2px;
+      font-size: 28px;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    font-size: 24px !important;
+  }
+  
+  th {
+    background-color:#ffffff;
+    font-weight: 500;
+  }
+  
+  td {
+    background-color: #ffffff;
+  }
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  }
+
+.Not-found-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-image{
+  max-height: 350px;
+}
+
+.no-result-text{
+  margin-top: 0px;
+  font-family:sans-serif;
+  font-size: 28px;
+}

@@ -1,0 +1,30 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.searchBox{
+  min-width:100%;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+.button{
+  border:none;
+  background-color:transparent;
+}
+
+.edit-button{
+  font-size: 10px;
+}
+
+.delete-button{
+   color: red;
+}
